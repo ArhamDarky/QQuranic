@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>qquranic</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+   
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    .ubuntu-font {
+      font-family: 'Ubuntu', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <body style="background-color: #F7F7F7;"></body>
+  <header>
+    <div class="content">
+      <div class="logo">
+        <img src="qurannn.png" alt="Quran Company Logo">
+      </div>
+      <div id="prayer-timings">
+        <h2>Prayer Timings</h2>
+        <ul>
+          <li><span class="prayer-name">Fajr:</span> <span class="prayer-time" id="fajr-time"></span></li>
+          <li><span class="prayer-name">Dhuhr:</span> <span class="prayer-time" id="dhuhr-time"></span></li>
+          <li><span class="prayer-name">Asr:</span> <span class="prayer-time" id="asr-time"></span></li>
+          <li><span class="prayer-name">Maghrib:</span> <span class="prayer-time" id="maghrib-time"></span></li>
+          <li><span class="prayer-name">Isha:</span> <span class="prayer-time" id="isha-time"></span></li>
+        </ul>
+      </div>
+    </div>
+    <h1>QQURANIC</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recitations.html">Recitations</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Founders</h2>
+    <section id="founder-section">
+      <div class="founder">
+        <img src="arham.png" alt="Founder 1">
+        <h3 onclick="toggleDescription(1)">Arham Darky<span class="expand-icon">+</span></h3>
+        <ul class="description"> 
+          <li>Hafiz - Graduated From DarusSalam Foundation 2018</li>
+          <li>Social Media Manager</li>
+          <li>Main goal is to provide a platform for talented reciters to showcase their skills and share there talents with a bigger audience</li>
+        </ul>
+       
+      </div>
+      <div class="founder">
+        <img src="uthman.png" alt="Founder 2">
+        <h3 onclick="toggleDescription(2)">Uthman Ali<span class="expand-icon">+</span></h3>
+        <ul class="description"> 
+          <li>Hafiz - Graduated From DarusSalam Foundation 2018</li>
+          <li>Recitation Coordinator</li>
+          <li>إِنَّ اللَّهَ يُحِبُّ إِذَا عَمِلَ أَحَدُكُمْ عَمَلًا أَنْ يُتْقِنَه "Indeed, Allah loves that when any one of you does a job, he does it with perfection."</li>
+        </ul>
+      </div>
+      <div class="founder">
+        <img src="zuhair.jpg" alt="Founder 3">
+        <h3 onclick="toggleDescription(3)">Zuhair Syed<span class="expand-icon">+</span></h3>
+        <ul class="description"> 
+          <li>Hafiz - Graduated From DarusSalam Foundation 2018</li>
+          <li>Video Editor</li>
+          <li>خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ "The best among you (Muslims) are those who learn the Quran and teach it." (Sahih Al-Bukhari)</li>
+        </ul>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p class="ubuntu-font">At QQURANIC, our mission is to provide a platform dedicated to promoting the beauty and power of the Quran. We believe that the Quran holds the ultimate guidance for all aspects of life and that its teachings have the ability to transform individuals and societies. Through our recitations, educational resources, and community engagement, we aim to inspire a deep connection with the Quran and facilitate its understanding and application in daily life. We are committed to upholding the highest standards of authenticity, accuracy, and excellence in all our endeavors. Join us on this journey as we embark on a quest to spread the light of the Quran to people around the world.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.youtube.com/@qquranic9641" target="_blank" class="youtube-icon"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.twitter.com/your-twitter-link" target="_blank" class="twitter-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/qquranic/?hl=en" target="_blank" class="instagram-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>Contact us at: <a href="mailto:officialqquranic@gmail.com">officialqquranic@gmail.com</a></p>
+    <p>&copy; 2023 qquranic. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

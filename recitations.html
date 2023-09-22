@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>qquranic</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+   
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    .ubuntu-font {
+      font-family: 'Ubuntu', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <body style="background-color: #F7F7F7;"></body>
+  <header>
+    <div class="content">
+      <div class="logo">
+        <img src="qurannn.png" alt="Quran Company Logo">
+      </div>
+      <div id="prayer-timings">
+        <h2>Prayer Timings</h2>
+        <ul>
+          <li><span class="prayer-name">Fajr:</span> <span class="prayer-time" id="fajr-time"></span></li>
+          <li><span class="prayer-name">Dhuhr:</span> <span class="prayer-time" id="dhuhr-time"></span></li>
+          <li><span class="prayer-name">Asr:</span> <span class="prayer-time" id="asr-time"></span></li>
+          <li><span class="prayer-name">Maghrib:</span> <span class="prayer-time" id="maghrib-time"></span></li>
+          <li><span class="prayer-name">Isha:</span> <span class="prayer-time" id="isha-time"></span></li>
+        </ul>
+      </div>
+    </div>
+    <h1>QQURANIC</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recitations.html">Recitations</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="recitations">
+      <h2>Featured Recitations</h2>
+      <div id="recitationList"></div>
+    </section>
+  </main>
+  <h2 id="our-goal-heading">Our Goal</h2>
+  <div id="our-goal-content">
+    <p>At qquranic, our goal is to promote the recitation of the Quran and provide a platform for individuals to share their beautiful recitations with the world.</p> 
+    <p> We strive to spread the message of the Quran to people of all backgrounds and inspire a deeper connection with the divine words.</p>
+  </div>
+
+  <div class="recitation-submission">
+    <div class="container">
+      <h2>Recitation Submission</h2>
+      <form id="recitation-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="recitation">Recitation Video:</label>
+        <input type="file" id="recitation" name="recitation" accept="video/*" required>
+        
+        <label for="special-requests">Special Requests:</label>
+        <textarea id="special-requests" name="special-requests" rows="4"></textarea>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.youtube.com/@qquranic9641" target="_blank" class="youtube-icon"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.twitter.com/your-twitter-link" target="_blank" class="twitter-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/qquranic/?hl=en" target="_blank" class="instagram-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>Contact us at: <a href="mailto:officialqquranic@gmail.com">officialqquranic@gmail.com</a></p>
+    <p>&copy; 2023 qquranic. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
